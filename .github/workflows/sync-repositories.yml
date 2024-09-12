@@ -1,0 +1,42 @@
+name: Sync Repositories
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 定时任务，设定为每天运行一次，UTC时间00:00运行
+    - cron: '0 0 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout this repository
+      uses: actions/checkout@v3
+      
+    - name: Read repositories.txt
+      id: read-repos
+      run: |
+        while read line; do
+          url=$(echo $line | cut -d' ' -f1)
+          branch=$(echo $line | cut -d' ' -f2)
+
+          if [ -z "$branch" ]; then
+            branch="main"
+          fi
+
+          repo_name=$(basename -s .git $url)
+
+          # 如果文件夹已经存在，先删除它
+          if [ -d "$repo_name" ]; then
+            echo "Removing existing directory $repo_name..."
+            rm -rf $repo_name
+          fi
+
+          # 克隆仓库并删除 .git 文件夹
+          echo "Cloning repository $repo_name..."
+          git clone --depth 1 -b $branch $url $repo_name || echo "Failed to clone $url"
+          rm -rf $repo_name/.git
+        done < .github/repositories.txt
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
