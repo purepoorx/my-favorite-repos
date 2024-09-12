@@ -19,8 +19,10 @@ jobs:
       run: |
         while read line; do
           # 获取 URL 和分支，默认为空表示没有指定分支
-          url=$(echo $line | cut -d' ' -f1)
-          branch=$(echo $line | cut -d' ' -f2)
+          # url=$(echo $line | cut -d' ' -f1)
+          # branch=$(echo $line | cut -d' ' -f2)
+          url=$(echo $line | awk '{print $1}')
+          branch=$(echo $line | awk '{print $2}')
 
           # 如果没有指定分支，则默认使用 main 分支
           if [ -z "$branch" ]; then
