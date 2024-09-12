@@ -1,7 +1,7 @@
 https://github.com/gaotianliuyun/gao  master
 https://gitlab.com/ivgeek/mixfile	master
 https://github.com/TyrantG/hikerViewRules  master
-https://github.com/yuanwangokk-1/TV-BOX
+https://github.com/yuanwangokk-1/TV-BOX  main
 https://github.com/badafans/SecureTCPRelay
 https://github.com/Greatwallcorner/CatVodSpider  master
 https://github.com/qiusunshine/hikerView  master
