@@ -18,15 +18,17 @@ jobs:
       id: read-repos
       run: |
         while read line; do
+          # 获取 URL 和分支，默认为空表示没有指定分支
           url=$(echo $line | cut -d' ' -f1)
           branch=$(echo $line | cut -d' ' -f2)
 
+          # 如果没有指定分支，则默认使用 main 分支
           if [ -z "$branch" ]; then
             branch="main"
           fi
 
-          # 生成唯一的文件夹名称，使用主机名和路径来构造
-          repo_name=$(echo $url | sed 's/https:\/\///' | sed 's/\//_/g')
+          # 生成唯一的文件夹名称，使用主机名、路径和分支名来构造
+          repo_name=$(echo $url | sed 's/https:\/\///' | sed 's/\//_/g')_$branch
 
           # 如果文件夹已经存在，先删除它
           if [ -d "$repo_name" ]; then
@@ -35,7 +37,7 @@ jobs:
           fi
 
           # 克隆仓库并删除 .git 文件夹
-          echo "Cloning repository $repo_name..."
+          echo "Cloning repository $repo_name from branch $branch..."
           git clone --depth 1 -b $branch $url $repo_name || echo "Failed to clone $url"
           rm -rf $repo_name/.git
         done < .github/repositories.txt
