@@ -25,7 +25,8 @@ jobs:
             branch="main"
           fi
 
-          repo_name=$(basename -s .git $url)
+          # 生成唯一的文件夹名称，使用主机名和路径来构造
+          repo_name=$(echo $url | sed 's/https:\/\///' | sed 's/\//_/g')
 
           # 如果文件夹已经存在，先删除它
           if [ -d "$repo_name" ]; then
