@@ -1,6 +1,6 @@
 package com.donut.mixfile
 
-import com.donut.mixfile.util.formatFileSize
+import com.donut.mixfile.server.uploaders.hidden.A2Uploader
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 
