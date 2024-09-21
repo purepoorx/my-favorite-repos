@@ -57,13 +57,13 @@ fun getDownloadRoute(): suspend PipelineContext<Unit, ApplicationCall>.(Unit) ->
         }
         var fileList = mixFile.fileList.map { it to 0 }
         if (range != null) {
-            fileList = mixFile.getFileListByRange(range)
+            fileList = mixFile.getFileListByStartRange(range.first)
             call.response.apply {
                 header("Accept-Ranges", "bytes")
                 status(HttpStatusCode.PartialContent)
                 contentRange(range, mixFile.fileSize)
             }
-            contentLength = range.last - range.first + 1
+            contentLength = mixFile.fileSize - range.first
         }
         responseFileStream(call, fileList, contentLength, shareInfo, referer)
     }

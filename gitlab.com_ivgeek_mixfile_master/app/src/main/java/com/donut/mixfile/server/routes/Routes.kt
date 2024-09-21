@@ -2,10 +2,11 @@ package com.donut.mixfile.server.routes
 
 import com.donut.mixfile.app
 import com.donut.mixfile.server.utils.concurrencyLimit
+import com.donut.mixfile.util.debug
+import com.donut.mixfile.util.file.favorites
 import com.donut.mixfile.util.file.resolveMixShareInfo
-import com.donut.mixfile.util.file.uploadLogs
 import com.donut.mixfile.util.parseFileMimeType
-import com.google.gson.Gson
+import com.donut.mixfile.util.toJsonString
 import com.google.gson.JsonObject
 import io.ktor.http.ContentType
 import io.ktor.http.HttpStatusCode
@@ -24,7 +25,9 @@ import java.io.FileNotFoundException
 fun getRoutes(): Routing.() -> Unit {
 
     return {
+
         get("{param...}") {
+            debug("牛逼")
             val file = call.request.path().substring(1).ifEmpty {
                 "index.html"
             }
@@ -43,8 +46,7 @@ fun getRoutes(): Routing.() -> Unit {
             get("/download", concurrencyLimit(DOWNLOAD_TASK_COUNT.toInt(), getDownloadRoute()))
             put("/upload", concurrencyLimit(UPLOAD_TASK_COUNT.toInt(), getUploadRoute()))
             get("/upload_history") {
-                val fileList = Gson().toJson(uploadLogs)
-                call.respond(fileList)
+                call.respond(favorites.take(1000).toJsonString())
             }
             get("/file_info") {
                 val shareInfoStr = call.request.queryParameters["s"]
