@@ -295,6 +295,8 @@ fun decompressGzip(compressed: ByteArray): String {
     }
 }
 
+fun readRawFile(id: Int) = app.resources.openRawResource(id).readBytes()
+
 
 fun isValidUri(uriString: String): Boolean {
     try {
