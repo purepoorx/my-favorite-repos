@@ -1,11 +1,11 @@
 /**
  pathLib: {
-  join: [Function: join],
-  dirname: [Function: dirname],
-  readDir: [Function (anonymous)],
-  readFile: [Function (anonymous)],
-  stat: [Function (anonymous)]
-}
+ join: [Function: join],
+ dirname: [Function: dirname],
+ readDir: [Function (anonymous)],
+ readFile: [Function (anonymous)],
+ stat: [Function (anonymous)]
+ }
  path
  path_dir
  **/
@@ -107,7 +107,7 @@ async function main() {
         {
             'name': '云星日记直播',
             'urls': [
-                'proxy://do=live&type=txt&ext=http://itvbox.cc/云星日记/Ipv4.txt',
+                'proxy://do=live&type=txt&ext=https://itvbox.cc/云星日记/Ipv4.txt',
             ],
         },
         {
