@@ -1,14 +1,19 @@
 package com.github.catvod.spider;
 
 import com.github.catvod.crawler.SpiderDebug;
-import com.github.catvod.utils.Utils;
+import com.github.catvod.utils.Util;
 
+import javax.swing.*;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Init {
 
     private final ExecutorService executor;
+
+    public static void run(Runnable runnable) {
+        SwingUtilities.invokeLater(runnable);
+    }
 //    private final Handler handler;
 //    private Application app;
 
@@ -27,7 +32,7 @@ public class Init {
 
     public static void init() {
         SpiderDebug.log("自定義爬蟲代碼載入成功！");
-        Utils.notify("加载成功");
+        Util.notify("加载成功");
     }
 
     public static void execute(Runnable runnable) {
