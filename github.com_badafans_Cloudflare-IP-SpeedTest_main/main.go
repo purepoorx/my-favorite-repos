@@ -8,7 +8,6 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"net"
 	"net/http"
 	"os"
@@ -94,7 +93,7 @@ func main() {
 
 		defer resp.Body.Close()
 
-		body, err := ioutil.ReadAll(resp.Body)
+		body, err := io.ReadAll(resp.Body)
 		if err != nil {
 			fmt.Printf("无法读取响应体: %v\n", err)
 			return
@@ -126,7 +125,7 @@ func main() {
 		}
 		defer file.Close()
 
-		body, err := ioutil.ReadAll(file)
+		body, err := io.ReadAll(file)
 		if err != nil {
 			fmt.Printf("无法读取文件: %v\n", err)
 			return
@@ -179,8 +178,8 @@ func main() {
 				KeepAlive: 0,
 			}
 			start := time.Now()
-			conn, err := dialer.Dial("tcp", net.JoinHostPort(ip, strconv.Itoa(*defaultPort)))
-			if err != nil {
+			conn, dialErr := dialer.Dial("tcp", net.JoinHostPort(ip, strconv.Itoa(*defaultPort)))
+			if dialErr != nil {
 				return
 			}
 			defer conn.Close()
@@ -210,8 +209,8 @@ func main() {
 			// 添加用户代理
 			req.Header.Set("User-Agent", "Mozilla/5.0")
 			req.Close = true
-			resp, err := client.Do(req)
-			if err != nil {
+			resp, httpErr := client.Do(req)
+			if httpErr != nil {
 				return
 			}
 
@@ -226,9 +225,9 @@ func main() {
 			// 使用一个 goroutine 来读取响应体
 			done := make(chan bool)
 			go func() {
-				_, err := io.Copy(buf, resp.Body)
+				_, copyErr := io.Copy(buf, resp.Body)
 				done <- true
-				if err != nil {
+				if copyErr != nil {
 					return
 				}
 			}()
@@ -242,9 +241,6 @@ func main() {
 			}
 
 			body := buf
-			if err != nil {
-				return
-			}
 
 			if strings.Contains(body.String(), "uag=Mozilla/5.0") {
 				if matches := regexp.MustCompile(`colo=([A-Z]+)`).FindStringSubmatch(body.String()); len(matches) > 1 {
@@ -357,13 +353,13 @@ func readIPs(File string) ([]string, error) {
 		ipAddr := scanner.Text()
 		// 判断是否为 CIDR 格式的 IP 地址
 		if strings.Contains(ipAddr, "/") {
-			ip, ipNet, err := net.ParseCIDR(ipAddr)
+			parsedIP, ipNet, err := net.ParseCIDR(ipAddr)
 			if err != nil {
 				fmt.Printf("无法解析CIDR格式的IP: %v\n", err)
 				continue
 			}
-			for ip := ip.Mask(ipNet.Mask); ipNet.Contains(ip); inc(ip) {
-				ips = append(ips, ip.String())
+			for currentIP := parsedIP.Mask(ipNet.Mask); ipNet.Contains(currentIP); inc(currentIP) {
+				ips = append(ips, currentIP.String())
 			}
 		} else {
 			ips = append(ips, ipAddr)
@@ -427,7 +423,7 @@ func getDownloadSpeed(ip string) float64 {
 	}
 	defer resp.Body.Close()
 
-	// 复制响应体到/dev/null，并计算下载速度
+	// 复制响应体到null，并计算下载速度
 	written, _ := io.Copy(io.Discard, resp.Body)
 	duration := time.Since(startTime)
 	speed := float64(written) / duration.Seconds() / 1024
