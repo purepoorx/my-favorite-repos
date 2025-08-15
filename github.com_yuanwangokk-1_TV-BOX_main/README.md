@@ -3,7 +3,6 @@
 
 TV-BOX 在线订阅地址：
 
-```js
-https://raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/tvbox/pg/jsm.json
+```json
+https://down.nigx.cn/raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/tvbox/pg/jsm.json
 ```
-
