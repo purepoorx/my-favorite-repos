@@ -88,6 +88,7 @@ Se invita a contribuir con PR y issues para actualizaciones. Si tienes algún pr
 | [microfeed](https://github.com/microfeed/microfeed) | Un sistema de gestión de contenidos (CMS) autoalojado y ligero en Cloudflare. Con microfeed, puedes publicar fácilmente varios contenidos (como audio, video, fotos, documentos, posts de blog y URLs externas) en formato web, RSS y JSON. Es la solución perfecta para individuos técnicamente competentes que desean autoalojar su propio CMS sin tener que operar sus propios servidores. | <https://www.microfeed.org/> | En mantenimiento |
 | [emaction.frontend](https://github.com/emaction/emaction.frontend) | Basado en Cloudflare D1, implementa la función de Reactions al estilo GitHub, este proyecto es el frontend. | <https://emaction.cool/>| En mantenimiento |
 | [emaction.backend](https://github.com/emaction/emaction.backend) | Basado en Cloudflare D1, implementa la función de Reactions al estilo GitHub, este proyecto es el backend. | <https://emaction.cool/> | En mantenimiento |
+| [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) | Plataforma de blog de alto rendimiento y Agentic-First. Construida en el ecosistema de Cloudflare. Soporta MCP y despliegue Zero-Touch vía OpenClaw. | <https://blog.ichimarugin728.com> | En mantenimiento |
 
 # Andamiaje
 
@@ -222,6 +223,7 @@ Se invita a contribuir con PR y issues para actualizaciones. Si tienes algún pr
 | [whisper_cloudflare](https://github.com/thun888/whisper_cloudflare) | Herramienta de transcripción de audio en línea basada en el modelo Whisper, desplegada en Cloudflare. Convierte archivos de audio a texto y soporta generación de subtítulos SRT. | | En mantenimiento |
 | [micro-notepad](https://github.com/thun888/micro-notepad/) | Mini bloc de notas, implementación de Cloudflare Worker de [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad). | | En mantenimiento |
 | [cf-page-publish-mcp](https://github.com/Actrue/cf-page-publish-mcp) | Herramienta MCP de publicación de páginas Cloudflare que puede publicar páginas HTML en Cloudflare Workers. Puede conectarse a IA a través de MCP. | | En mantenimiento |
+| [ShotOG](https://github.com/nicepkg/shotog) | API de generación de imágenes OG de código abierto que se ejecuta en Cloudflare Workers. 8 plantillas, generación por lotes, fuentes personalizadas, renderizado en el borde ~50ms. | <https://shotog.2214962083.workers.dev> | En mantenimiento |
 
 
 ## Tutoriales

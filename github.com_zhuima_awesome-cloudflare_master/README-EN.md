@@ -88,6 +88,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [microfeed](https://github.com/microfeed/microfeed) |A lightweight Content Management System (CMS) self-hosted on Cloudflare. With microfeed, you can easily publish various content (such as audio, video, photos, documents, blog posts, and external URLs) in Web, RSS, and JSON formats to feeds. Perfect solution for individuals who want to self-host their CMS without running their own server. | <https://www.microfeed.org/> | Maintaining |
 | [emaction.frontend](https://github.com/emaction/emaction.frontend) |GitHub-style Reactions liking feature implemented based on Cloudflare D1, this project is the frontend. | <https://emaction.cool/>| Maintaining |
 | [emaction.backend](https://github.com/emaction/emaction.backend) |GitHub-style Reactions liking feature implemented based on Cloudflare D1, this project is the backend. | <https://emaction.cool/> | Maintaining |
+| [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) | A high-performance, Agentic-First blog platform. Built on Cloudflare ecosystem. Supports MCP and Zero-Touch Deployment via OpenClaw. | <https://blog.ichimarugin728.com> | Maintaining |
 
 # Scaffolding
 
@@ -222,6 +223,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [whisper_cloudflare](https://github.com/thun888/whisper_cloudflare) | Online audio transcription tool based on Whisper model, deployed on Cloudflare. Converts audio files to text and supports SRT subtitle generation. | | Maintaining |
 | [micro-notepad](https://github.com/thun888/micro-notepad/) | Mini notepad, Cloudflare Worker implementation of [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad). | | Maintaining |
 | [cf-page-publish-mcp](https://github.com/Actrue/cf-page-publish-mcp) | Cloudflare page publishing mcp tool that can publish HTML pages to Cloudflare Workers. Can connect to AI via MCP. | | Maintaining |
+| [ShotOG](https://github.com/nicepkg/shotog) | Open source OG image generation API running on Cloudflare Workers. 8 templates, batch generation, custom fonts, edge rendering ~50ms. | <https://shotog.2214962083.workers.dev> | Maintaining |
 
 
 ## Tutorials

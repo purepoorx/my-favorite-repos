@@ -84,6 +84,7 @@ Willkommen zu PRs und Issues für Updates. Bei Problemen während der Bereitstel
 | [microfeed](https://github.com/microfeed/microfeed) | Ein selbst gehostetes, leichtgewichtiges Content Management System (CMS) auf Cloudflare. Mit microfeed können Sie verschiedene Inhalte (wie Audio, Video, Fotos, Dokumente, Blog-Posts und externe URLs) einfach als Web, RSS und JSON veröffentlichen. Perfekt für technisch versierte Personen, die ihr eigenes CMS hosten möchten, ohne einen eigenen Server zu betreiben. | <https://www.microfeed.org/> | Wird gewartet |
 | [emaction.frontend](https://github.com/emaction/emaction.frontend) | Basierend auf Cloudflare D1, GitHub-Stil Reactions Like-Funktion, dieses Projekt ist das Frontend. | <https://emaction.cool/> | Wird gewartet |
 | [emaction.backend](https://github.com/emaction/emaction.backend) | Basierend auf Cloudflare D1, GitHub-Stil Reactions Like-Funktion, dieses Projekt ist das Backend. | <https://emaction.cool/> | Wird gewartet |
+| [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) | Eine leistungsstarke, Agentic-First-Blog-Plattform im Cloudflare-Ökosystem. Unterstützt MCP und Zero-Touch-Deployment über OpenClaw. | <https://blog.ichimarugin728.com> | Wird gewartet |
 
 # Gerüst
 
@@ -193,6 +194,7 @@ Willkommen zu PRs und Issues für Updates. Bei Problemen während der Bereitstel
 | [whisper_cloudflare](https://github.com/thun888/whisper_cloudflare) | Online-Audio-Transkriptionstool basierend auf Whisper-Modell, auf Cloudflare bereitgestellt. Konvertiert Audiodateien in Text und unterstützt SRT-Untertitelgenerierung. | | Wird gewartet |
 | [micro-notepad](https://github.com/thun888/micro-notepad/) | Mini-Notizblock, Cloudflare-Worker-Implementierung von [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad). | | Wird gewartet |
 | [cf-page-publish-mcp](https://github.com/Actrue/cf-page-publish-mcp) | Cloudflare-Seitenveröffentlichungs-MCP-Tool, das HTML-Seiten auf Cloudflare Workers veröffentlichen kann. Kann über MCP mit KI verbinden. | | Wird gewartet |
+| [ShotOG](https://github.com/nicepkg/shotog) | Open-Source OG-Bildgenerierungs-API auf Cloudflare Workers. 8 Vorlagen, Stapelgenerierung, benutzerdefinierte Schriftarten, Edge-Rendering ~50ms. | <https://shotog.2214962083.workers.dev> | Wird gewartet |
 
 
 ## Tutorials

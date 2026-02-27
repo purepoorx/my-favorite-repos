@@ -51,6 +51,7 @@
   - [文件分享](#文件分享)
   - [测速](#测速)
   - [监控](#监控)
+  - [开发者工具](#开发者工具)
 - [文章](#文章)
   - [其他](#其他)
   - [教程](#教程)
@@ -105,6 +106,7 @@
 | [serverless-cloud-notepad](https://github.com/s0urcelab/serverless-cloud-notepad) |基于 Cloudflare Worker 实现的Serverless Cloud Notepad 云笔记。| <https://note.src.moe/y6y> | 维护中|
 | [Rin](https://github.com/openRin/Rin/) |Rin 是一个基于 Cloudflare Pages + Workers + D1 + R2 全家桶的博客，无需服务器无需备案，只需要一个解析到 Cloudflare 的域名即可部署。| <https://docs.openrin.org/> | 维护中|
 | [cf-comment](https://github.com/joyance-professional/cf-comment) |一个基于 Cloudflare Workers 运行的简单评论系统，支持回复、点赞、举报以及管理员后台管理功能；同时提供中英双语切换，方便更广泛地使用。| <https://comment.joyance.page/area/test-4> | 维护中|
+| [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) |一个高性能、Agentic-First 的博客平台。完全基于 Cloudflare 生态 (Workers, Pages, D1, KV, R2, Vectorize)。内置 MCP 协议，支持通过 OpenClaw 零人工自动部署。| <https://blog.ichimarugin728.com> | 维护中|
 
 
 
@@ -140,6 +142,7 @@
 | [analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare) |免费开源网页访客计数器, Webviso 是一个基于Cloudflare worker服务+Cloudflare D1数据库实现的完全免费的在线web访客统计服务。 功能与目前常用的 不蒜子 - 极简网页计数器 相同。Webviso完全开源，你可以实现自定义需求。 基于Cloudflare的微服务架构可快速自行部署上线。 | <https://webviso.yestool.org/> |维护中|
 | [counterscale](https://github.com/benvinegar/counterscale) |Counterscale 是一个简单的 Web 分析跟踪器和仪表板，效果和 umami 类似，您可以在 Cloudflare 上自行托管。它的设计易于部署和维护，即使在高流量的情况下，您的操作成本也应该接近于零（Cloudflare 的免费套餐假设可以支持每天高达 10 万次点击）。 | <https://counterscale.dev/> |维护中|
 | [HanAnalytics](https://github.com/uxiaohan/HanAnalytics) |一个部署在Cloudflare Pages上的简单的网络分析跟踪器和仪表板，是umami的精简版，它支持设备查看、来源查看、国家地区及设备OS等数据查看分析，支持密码访问，域名白名单等功能。 |  |维护中|
+| [PageGuard](https://github.com/sleepyxpad-jpg/pageguard) |免费网站健康扫描器，基于 Cloudflare Workers + D1 + Workers AI（Llama 3.1）。检查 SEO、性能（Core Web Vitals）、无障碍（WCAG 2.1）、最佳实践，30 秒出 AI 诊断报告，无需注册登录。 | <https://pageguard.qiudeqiu.workers.dev> |维护中|
 
 
 
@@ -194,8 +197,15 @@
 | [cf-workers-status-page](https://github.com/eidam/cf-workers-status-page) |监控您的网站，展示状态（包括每日历史记录），并在网站状态发生变化时收到 Slack 通知。使用 Cloudflare Workers、CRON 触发器和 KV 存储。 | <https://status-page.eidam.dev/> |维护中|
 | [xugou](https://github.com/zaunist/xugou)| 基于 CloudFlare 的站点监控以及服务器监控工具。 | https://xugou.mdzz.uk/ |  维护中
 | [cf-vps-monitor](https://github.com/kadidalax/cf-vps-monitor)| 一个部署在 Cloudflare Workers 上的简单 VPS 监控 + 网站监测 面板，使用 Cloudflare D1 数据库存储数据。 | <https://vps-monitor.abo-vendor289.workers.dev/> |  维护中
+| [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) | SSL 证书到期监控工具，检查 SSL 证书有效期并通过 RESTful API 提供服务。 | <https://ssl-certificate-monitor.autocompany.workers.dev/> |维护中|
 | [deploy-mcp](https://github.com/alexpota/deploy-mcp) | 为AI助手提供的通用部署跟踪器，支持实时状态徽章和部署监控，包括对 Cloudflare Pages 的支持。 | https://deploy-mcp.io | 有效中 |
 | [What Broke Today](https://whatbroke.today/) | AI 驱动的宕机聚合器，追踪 100+ 云服务（包括 Cloudflare）的状态，提供实时 Telegram 警报、RSS 订阅和 JSON API。 | <https://whatbroke.today/> | 维护中 |
+
+## 开发者工具
+
+| 名称 | 特性 |在线地址 | 状态|
+| --- | --- | --- |--- |
+| [Webhook Debugger](https://github.com/brancogao/webhook-debugger) | 自托管 Webhook 调试工具，支持签名验证（Stripe/GitHub/Slack/Shopify）、90天历史、全文搜索、一键重放。基于 Cloudflare Workers + D1 构建。 | <https://webhook-debugger.autocompany.workers.dev> | 维护中 |
 
 # 文章
 
@@ -264,6 +274,9 @@
 | [whisper_cloudflare](https://github.com/thun888/whisper_cloudflare) | 基于 Whisper 模型的在线音频转写工具，部署在 Cloudflare 上。可以将音频文件转换为文字，并支持生成 SRT 格式的字幕文件。| | 维护中 |
 | [micro-notepad](https://github.com/thun888/micro-notepad/) | 迷你笔记本，对 [pereorga/minimalist-web-notepad](https://github.com/pereorga/minimalist-web-notepad) 的cloudflare worker实现。| | 维护中 |
 | [cf-page-publish-mcp](https://github.com/Actrue/cf-page-publish-mcp) | cloudflare 页面发布 mcp 工具，可以将 html 页面发布到 cloudflare，worker 上。可以mcp对接ai。| | 维护中 |
+| [ShotOG](https://github.com/nicepkg/shotog) | 开源 OG 图片生成 API，运行在 Cloudflare Workers 上。8 个模板、批量生成、自定义字体、边缘渲染 ~50ms。| <https://shotog.2214962083.workers.dev> | 维护中 |
+| [redirect-checker](https://github.com/brancogao/redirect-checker) | 基于 Cloudflare Workers 的 HTTP 重定向链分析器，支持检测重定向循环、性能测量、多种 User-Agent 预设（含 Googlebot/Bingbot）。提供 RESTful API 和响应式 Web UI。| <https://redirect-checker.autocompany.workers.dev/> | 维护中 |
+| [MetaReview](https://github.com/TerryFYL/metareview) | 免费在线 Meta 分析平台，基于 Cloudflare Pages + Workers AI + KV 构建。支持 120+ 功能：森林图/漏斗图等 11 种统计图表（D3.js）、5 种效应量、AI 文献筛选（Llama 3.1 8B）、PDF 数据提取、DOCX/HTML 报告导出、PRISMA 流程图。中英双语，医学研究者 5 分钟从数据到森林图。 | <https://metareview-8c1.pages.dev/> | 维护中 |
 
 ## 教程
 
