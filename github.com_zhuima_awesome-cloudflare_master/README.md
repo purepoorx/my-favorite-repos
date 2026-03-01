@@ -142,7 +142,7 @@
 | [analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare) |免费开源网页访客计数器, Webviso 是一个基于Cloudflare worker服务+Cloudflare D1数据库实现的完全免费的在线web访客统计服务。 功能与目前常用的 不蒜子 - 极简网页计数器 相同。Webviso完全开源，你可以实现自定义需求。 基于Cloudflare的微服务架构可快速自行部署上线。 | <https://webviso.yestool.org/> |维护中|
 | [counterscale](https://github.com/benvinegar/counterscale) |Counterscale 是一个简单的 Web 分析跟踪器和仪表板，效果和 umami 类似，您可以在 Cloudflare 上自行托管。它的设计易于部署和维护，即使在高流量的情况下，您的操作成本也应该接近于零（Cloudflare 的免费套餐假设可以支持每天高达 10 万次点击）。 | <https://counterscale.dev/> |维护中|
 | [HanAnalytics](https://github.com/uxiaohan/HanAnalytics) |一个部署在Cloudflare Pages上的简单的网络分析跟踪器和仪表板，是umami的精简版，它支持设备查看、来源查看、国家地区及设备OS等数据查看分析，支持密码访问，域名白名单等功能。 |  |维护中|
-| [PageGuard](https://github.com/sleepyxpad-jpg/pageguard) |免费网站健康扫描器，基于 Cloudflare Workers + D1 + Workers AI（Llama 3.1）。检查 SEO、性能（Core Web Vitals）、无障碍（WCAG 2.1）、最佳实践，30 秒出 AI 诊断报告，无需注册登录。 | <https://pageguard.qiudeqiu.workers.dev> |维护中|
+| [PageGuard](https://github.com/sleepyxpad-jpg/pageguard) |免费网站健康扫描器，基于 Cloudflare Workers + D1 + Workers AI（Llama 3.1）。检查 SEO、性能（Core Web Vitals）、无障碍（WCAG 2.1）、最佳实践，30 秒出 AI 诊断报告，无需注册登录。 | <https://pageguard.org> |维护中|
 
 
 
