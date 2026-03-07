@@ -1152,8 +1152,8 @@
       "ips": [
         "94.140.14.140",
         "94.140.14.141",
-        "2a10:50c0::1:ff",
-        "2a10:50c0::2:ff"
+        "2a10:50c0::ad1:ff",
+        "2a10:50c0::ad2:ff"
       ]
     },
     {
@@ -1169,17 +1169,79 @@
     {
       "name": "✨Quad9✨",
       "url": "https://dns.quad9.net/dns-query",
-      "ips": ["9.9.9.9", "149.112.112.112", "2620:fe::fe", "2620:fe::9"]
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112",
+        "2620:fe::fe",
+        "2620:fe::9"
+      ]
     },
     {
-      "name": "✨Aliyun (阿里云)✨",
+      "name": "✨OpenDNS✨",
+      "url": "https://doh.opendns.com/dns-query",
+      "ips": [
+        "208.67.222.222",
+        "208.67.220.220",
+        "2620:119:35::35",
+        "2620:119:53::53"
+      ]
+    },
+    {
+      "name": "✨AliDNS✨",
       "url": "https://dns.alidns.com/dns-query",
-      "ips": ["223.5.5.5", "223.6.6.6", "2400:3200::1", "2400:3200:baba::1"]
+      "ips": [
+        "223.5.5.5",
+        "223.6.6.6",
+        "2400:3200::1",
+        "2400:3200:baba::1"
+      ]
     },
     {
-      "name": "✨Tencent Cloud (腾讯云)✨",
+      "name": "✨DNSPod✨",
       "url": "https://doh.pub/dns-query",
-      "ips": ["119.29.29.29", "119.28.28.28", "2402:4e00::", "2402:4e00::1"]
+      "ips": [
+        "119.29.29.29",
+        "182.254.116.116",
+        "2402:4e00::",
+        "2402:4e00:1::"
+      ]
+    },
+    {
+      "name": "✨NextDNS✨",
+      "url": "https://dns.nextdns.io/dns-query",
+      "ips": [
+        "45.90.28.0",
+        "45.90.30.0",
+        "2a07:a8c0::",
+        "2a07:a8c1::"
+      ]
+    },
+    {
+      "name": "✨Mullvad✨",
+      "url": "https://dns.mullvad.net/dns-query",
+      "ips": [
+        "194.242.2.2",
+        "194.242.2.3",
+        "2a07:e340::2"
+      ]
+    },
+    {
+      "name": "✨ControlD✨",
+      "url": "https://dns.controld.com/freedns",
+      "ips": [
+        "76.76.2.0",
+        "76.76.10.0"
+      ]
+    },
+    {
+      "name": "✨360 DNS✨",
+      "url": "https://doh.360.cn/dns-query",
+      "ips": [
+        "101.226.4.6",
+        "218.30.118.6",
+        "123.125.81.6",
+        "140.207.198.6"
+      ]
     }
   ],
   "proxy": [
@@ -1228,80 +1290,132 @@
     },
     {
       "host": "www.djuu.com",
-      "rule": ["mp4.djuu.com", "m4a"]
+      "rule": [
+        "mp4.djuu.com",
+        "m4a"
+      ]
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["huoshan.com", "/item/video/"],
+      "rule": [
+        "huoshan.com",
+        "/item/video/"
+      ],
       "filter": []
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["sovv.qianpailive.com", "vid="],
+      "rule": [
+        "sovv.qianpailive.com",
+        "vid="
+      ],
       "filter": []
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["douyin.com", "/play/"]
+      "rule": [
+        "douyin.com",
+        "/play/"
+      ]
     },
     {
       "host": "m.ysxs8.vip",
-      "rule": ["ysting.ysxs8.vip:81", "xmcdn.com"],
+      "rule": [
+        "ysting.ysxs8.vip:81",
+        "xmcdn.com"
+      ],
       "filter": []
     },
     {
       "host": "hdmoli.com",
-      "rule": [".m3u8"]
+      "rule": [
+        ".m3u8"
+      ]
     },
     {
       "host": "https://api.live.bilibili.com",
-      "rule": ["bilivideo.com", "/index.m3u8"],
-      "filter": ["data.bilibili.com/log/web", "i0.hdslb.com/bfs/live/"]
+      "rule": [
+        "bilivideo.com",
+        "/index.m3u8"
+      ],
+      "filter": [
+        "data.bilibili.com/log/web",
+        "i0.hdslb.com/bfs/live/"
+      ]
     },
     {
       "host": "www.agemys.cc",
-      "rule": ["cdn-tos", "obj/tos-cn"]
+      "rule": [
+        "cdn-tos",
+        "obj/tos-cn"
+      ]
     },
     {
       "host": "www.fun4k.com",
-      "rule": ["https://hd.ijycnd.com/play", "index.m3u8"]
+      "rule": [
+        "https://hd.ijycnd.com/play",
+        "index.m3u8"
+      ]
     },
     {
       "host": "zjmiao.com",
-      "rule": ["play.videomiao.vip/API.php", "time=", "key=", "path="]
+      "rule": [
+        "play.videomiao.vip/API.php",
+        "time=",
+        "key=",
+        "path="
+      ]
     },
     {
       "name": "✨火山嗅探✨",
-      "hosts": ["huoshan.com"],
-      "regex": ["item_id="]
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
     },
     {
       "name": "✨抖音嗅探✨",
-      "hosts": ["douyin.com"],
-      "regex": ["is_play_url="]
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
     },
     {
       "name": "✨農民嗅探✨",
-      "hosts": ["toutiaovod.com"],
-      "regex": ["video/tos/cn"]
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
     },
     {
       "name": "✨夜市✨",
-      "hosts": ["yeslivetv.com"],
+      "hosts": [
+        "yeslivetv.com"
+      ],
       "script": [
         "document.getElementsByClassName('vjs-big-play-button')[0].click()"
       ]
     },
     {
       "name": "✨毛驢✨",
-      "hosts": ["www.maolvys.com"],
+      "hosts": [
+        "www.maolvys.com"
+      ],
       "script": [
         "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
     },
     {
       "name": "✨磁力广告✨",
-      "hosts": ["magnet"],
+      "hosts": [
+        "magnet"
+      ],
       "regex": [
         "更多",
         "社 區",

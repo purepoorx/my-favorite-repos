@@ -347,6 +347,43 @@
                 "2402:4e00::",
                 "2402:4e00:1::"
             ]
+        },
+        {
+            "name": "✨NextDNS✨",
+            "url": "https://dns.nextdns.io/dns-query",
+            "ips": [
+                "45.90.28.0",
+                "45.90.30.0",
+                "2a07:a8c0::",
+                "2a07:a8c1::"
+            ]
+        },
+        {
+            "name": "✨Mullvad✨",
+            "url": "https://dns.mullvad.net/dns-query",
+            "ips": [
+                "194.242.2.2",
+                "194.242.2.3",
+                "2a07:e340::2"
+            ]
+        },
+        {
+            "name": "✨ControlD✨",
+            "url": "https://dns.controld.com/freedns",
+            "ips": [
+                "76.76.2.0",
+                "76.76.10.0"
+            ]
+        },
+        {
+            "name": "✨360 DNS✨",
+            "url": "https://doh.360.cn/dns-query",
+            "ips": [
+                "101.226.4.6",
+                "218.30.118.6",
+                "123.125.81.6",
+                "140.207.198.6"
+            ]
         }
     ],
     "proxy": [

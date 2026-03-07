@@ -1849,13 +1849,13 @@
     ],
     "doh": [
         {
-            "name": "✨阿里DNS✨",
-            "url": "https://dns.alidns.com/dns-query",
+            "name": "✨Google✨",
+            "url": "https://dns.google/dns-query",
             "ips": [
-                "223.5.5.5",
-                "223.6.6.6",
-                "2400:3200::1",
-                "2400:3200:baba::1"
+                "8.8.4.4",
+                "8.8.8.8",
+                "2001:4860:4860::8844",
+                "2001:4860:4860::8888"
             ]
         },
         {
@@ -1869,13 +1869,100 @@
             ]
         },
         {
-            "name": "✨谷歌DNS✨",
-            "url": "https://dns.google/dns-query",
+            "name": "✨AdGuard✨",
+            "url": "https://dns.adguard.com/dns-query",
             "ips": [
-                "8.8.4.4",
-                "8.8.8.8",
-                "2001:4860:4860::8888",
-                "2001:4860:4860::8844"
+                "94.140.14.140",
+                "94.140.14.141",
+                "2a10:50c0::ad1:ff",
+                "2a10:50c0::ad2:ff"
+            ]
+        },
+        {
+            "name": "✨DNSWatch✨",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40",
+                "2001:1608:10:25::1c04:b12f",
+                "2001:1608:10:25::9249:d69b"
+            ]
+        },
+        {
+            "name": "✨Quad9✨",
+            "url": "https://dns.quad9.net/dns-query",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112",
+                "2620:fe::fe",
+                "2620:fe::9"
+            ]
+        },
+        {
+            "name": "✨OpenDNS✨",
+            "url": "https://doh.opendns.com/dns-query",
+            "ips": [
+                "208.67.222.222",
+                "208.67.220.220",
+                "2620:119:35::35",
+                "2620:119:53::53"
+            ]
+        },
+        {
+            "name": "✨AliDNS✨",
+            "url": "https://dns.alidns.com/dns-query",
+            "ips": [
+                "223.5.5.5",
+                "223.6.6.6",
+                "2400:3200::1",
+                "2400:3200:baba::1"
+            ]
+        },
+        {
+            "name": "✨DNSPod✨",
+            "url": "https://doh.pub/dns-query",
+            "ips": [
+                "119.29.29.29",
+                "182.254.116.116",
+                "2402:4e00::",
+                "2402:4e00:1::"
+            ]
+        },
+        {
+            "name": "✨NextDNS✨",
+            "url": "https://dns.nextdns.io/dns-query",
+            "ips": [
+                "45.90.28.0",
+                "45.90.30.0",
+                "2a07:a8c0::",
+                "2a07:a8c1::"
+            ]
+        },
+        {
+            "name": "✨Mullvad✨",
+            "url": "https://dns.mullvad.net/dns-query",
+            "ips": [
+                "194.242.2.2",
+                "194.242.2.3",
+                "2a07:e340::2"
+            ]
+        },
+        {
+            "name": "✨ControlD✨",
+            "url": "https://dns.controld.com/freedns",
+            "ips": [
+                "76.76.2.0",
+                "76.76.10.0"
+            ]
+        },
+        {
+            "name": "✨360 DNS✨",
+            "url": "https://doh.360.cn/dns-query",
+            "ips": [
+                "101.226.4.6",
+                "218.30.118.6",
+                "123.125.81.6",
+                "140.207.198.6"
             ]
         }
     ],
