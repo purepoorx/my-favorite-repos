@@ -165,6 +165,7 @@
 | [Page-api-forwarder](https://github.com/xinjianzhanghao/page-api-forwarder) | 它可以帮助您绕过某些API上的IP限制，并且由于它通过Cloudflare，因此速度很快。 |  |维护中|
 | [AI-worker](https://github.com/qyjoy/AI-worker) | 通过Cloudflare免费、私有化访问和管理Gemini~摆脱地域限制无烦恼，完全由自己掌控。 |  |维护中|
 | [gemini-balance-do](https://github.com/zaunist/gemini-balance-do) | 基于 Cloudflare Worker 和 Durable Objects 实现的 Gemini API 中转（多key负载均衡），稳定美国 IP 访问 Gemini | https://github.com/zaunist/gemini-balance-do | 维护中 |
+| [LLMKit](https://github.com/smigolsmigol/llmkit) | Open-source AI API gateway built on CF Workers + Durable Objects. Cost tracking, budget enforcement, rate limiting for 11 LLM providers (OpenAI, Anthropic, Gemini, etc). TypeScript SDK, CLI, MCP server. MIT license. | <https://github.com/smigolsmigol/llmkit> | 维护中 |
 
 
 ## 文件分享
@@ -178,6 +179,7 @@
 | [CloudPaste](https://github.com/ling-drag0n/CloudPaste) |基于Cloudflare的在线文本/大文件分享平台，支持多种语法 Markdown 渲染、阅后即焚、S3/WebDav/TG/OneDrive等多存储聚合、密码保护等功能，可作为WebDav挂载，支持Docker部署。| <https://doc.cloudpaste.qzz.io/>  |维护中|
 | [cf-drop](https://github.com/lyonbot/cf-drop) |一个「文件传输助手」，运行在 Cloudflare Worker + R2 + D1。具备PWA移动端优化、支持多线程文件下载、访问密码、打包下载tarball 等功能。界面简单易用，可放到浏览器侧栏，或者添加到手机桌面上快速使用。|   |维护中|
 | [serverless-webdav](https://github.com/jiacai2050/my-works/blob/main/serverless-webdav/README.zh-CN.md) | 基于 Cloudflare Workers 和 Cloudflare D1 数据库 构建的轻量级、可扩展的 WebDAV 服务器实现。 |   |维护中|
+| [R2Drop](https://github.com/superhumancorp/r2drop) |Native macOS menu bar app for uploading files to Cloudflare R2. Built with Swift + Rust, supports drag-and-drop, automatic URL copying, and multiple bucket management. | <https://r2drop.com> |维护中|
 
 
 
@@ -277,6 +279,7 @@
 | [ShotOG](https://github.com/nicepkg/shotog) | 开源 OG 图片生成 API，运行在 Cloudflare Workers 上。8 个模板、批量生成、自定义字体、边缘渲染 ~50ms。| <https://shotog.2214962083.workers.dev> | 维护中 |
 | [redirect-checker](https://github.com/brancogao/redirect-checker) | 基于 Cloudflare Workers 的 HTTP 重定向链分析器，支持检测重定向循环、性能测量、多种 User-Agent 预设（含 Googlebot/Bingbot）。提供 RESTful API 和响应式 Web UI。| <https://redirect-checker.autocompany.workers.dev/> | 维护中 |
 | [MetaReview](https://github.com/TerryFYL/metareview) | 免费在线 Meta 分析平台，基于 Cloudflare Pages + Workers AI + KV 构建。支持 120+ 功能：森林图/漏斗图等 11 种统计图表（D3.js）、5 种效应量、AI 文献筛选（Llama 3.1 8B）、PDF 数据提取、DOCX/HTML 报告导出、PRISMA 流程图。中英双语，医学研究者 5 分钟从数据到森林图。 | <https://metareview-8c1.pages.dev/> | 维护中 |
+| [Keep My Claw](https://github.com/Ryce/keepmyclaw) | 基于 Cloudflare Workers + D1 + R2 的 AI 代理加密云备份工具。支持自动定时备份、客户端 AES-256 加密、一键恢复到任意设备，专为 OpenClaw 工作空间设计。 | <https://keepmyclaw.com> | 维护中 |
 
 ## 教程
 
