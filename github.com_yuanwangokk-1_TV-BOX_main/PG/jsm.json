@@ -3,7 +3,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "✨豆瓣✨",
+            "name": "🫰豆瓣🫰",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -12,42 +12,8 @@
             "ext": "./lib/douban.json"
         },
         {
-            "key": "Youtube",
-            "name": "✨Youtube✨",
-            "type": 3,
-            "api": "csp_Youtube",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "timeout": 120,
-            "ext": {
-                "token": "./lib/tokenm.json",
-                "json": "./lib/youtube.json",
-                "type": "直播#新闻#剧集#电影#综艺#纪录片#音乐#体育#动物#风光#放松#4K#HDR#movie#music#documentary#bbc documentary#national geographic documentary",
-                "keywords": "排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧,小姐姐",
-                "codecs": "",
-                "proxy": "noproxy",
-                "danmu": true
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.77
-            }
-        },
-        {
-            "key": "Guazi",
-            "name": "✨瓜子|App✨",
-            "type": 3,
-            "api": "csp_Guazi",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "timeout": 60,
-            "ext": ""
-        },
-        {
             "key": "索尼资源",
-            "name": "✨索尼┃资源✨",
+            "name": "🫰索尼┃资源🫰",
             "type": 1,
             "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
             "categories": [
@@ -90,7 +56,7 @@
         },
         {
             "key": "BLSGod",
-            "name": "✨BLSGod|磁✨",
+            "name": "🫰BLSGod|磁🫰",
             "type": 3,
             "api": "csp_BLSGod",
             "changeable": 1,
@@ -98,7 +64,7 @@
         },
         {
             "key": "SeedHub",
-            "name": "✨SeedHub|磁✨",
+            "name": "🫰SeedHub|磁🫰",
             "type": 3,
             "api": "csp_SeedHub",
             "changeable": 1,
@@ -106,7 +72,7 @@
         },
         {
             "key": "ikun",
-            "name": "✨ikun✨",
+            "name": "🫰ikun🫰",
             "type": 1,
             "api": "https://ikunzyapi.com/api.php/provide/vod/?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=noproxy&url=",
@@ -116,7 +82,7 @@
         },
         {
             "key": "暴風",
-            "name": "✨暴風✨",
+            "name": "🫰暴風🫰",
             "type": 1,
             "api": "https://bfzyapi.com/api.php/provide/vod?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=noproxy&url=",
@@ -125,7 +91,7 @@
         },
         {
             "key": "索尼",
-            "name": "✨索尼 ✨",
+            "name": "🫰索尼 🫰",
             "type": 1,
             "api": "https://suoniapi.com/api.php/provide/vod?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=noproxy&url=",
@@ -134,9 +100,9 @@
         },
         {
             "key": "量子",
-            "name": "✨量子✨",
+            "name": "🫰量子🫰",
             "type": 1,
-            "api": "https://cj.lziapi.com/api.php/provide/vod/?",
+            "api": "http://cj.lziapi.com/api.php/provide/vod/?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=noproxy&url=",
             "playerType": 1,
             "searchable": 1,
@@ -144,9 +110,9 @@
         },
         {
             "key": "非凡",
-            "name": "✨非凡✨",
+            "name": "🫰非凡🫰",
             "type": 1,
-            "api": "https://cj.ffzyapi.com/api.php/provide/vod/?",
+            "api": "http://cj.ffzyapi.com/api.php/provide/vod/?",
             "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=noproxy&url=",
             "playerType": 1,
             "searchable": 1,
@@ -185,101 +151,42 @@
         },
         {
             "key": "異界",
-            "name": "✨異界✨",
+            "name": "🫰異界🫰",
             "type": 3,
             "api": "csp_Ysj",
             "searchable": 1,
             "changeable": 0
         },
         {
-            "key": "應用商店",
-            "name": "✨應用商店✨",
+            "key": "酷狗",
+            "name": "🫰酷狗🫰",
             "type": 3,
-            "api": "csp_Market",
-            "searchable": 0,
-            "changeable": 0,
-            "ext": "https://fm.t4tv.hz.cz/json/market.json"
-        }
-    ],
-    "lives": [
-        {
-            "name": "✨稳定咪咕源✨",
-            "type": 0,
-            "url": "https://develop202.github.io/migu_video/interface.txt",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
+            "api": "csp_Kugou",
+            "searchable": 1,
+            "changeable": 0
         },
         {
-            "name": "✨🈲黄色仓库🈲✨",
-            "type": 0,
-            "url": "https://down.nigx.cn/raw.githubusercontent.com/fuxkjd/hsck/refs/heads/main/dist/all.m3u",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "✨🈲日本AV🈲✨",
-            "type": 0,
-            "url": "https://down.nigx.cn/gist.githubusercontent.com/yuanwangokk-1/b48e4fd7edad33594c4f3f1972684d0d/raw/be7f76552c480817d1ea8726a3df9a205fe03f43/jp.m3u",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "✨🈲韩团直播🈲✨",
-            "type": 0,
-            "url": "https://down.nigx.cn/gist.githubusercontent.com/yuanwangokk-1/a661dd0e88466aa22f2a7c1fb375635e/raw/8708d9947be1c64c52bb1610a30aaa1b595848c9/%E9%9F%A9%E5%9B%BD%E5%A5%B3%E5%9B%A2%E7%9B%B4%E6%92%AD.m3u",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png",
-            "catchup": {
-                "type": "append",
-                "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-            }
-        },
-        {
-            "name": "✨Gather.电视直播✨",
-            "type": 0,
-            "url": "https://tv.iill.top/m3u/Gather",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
-        },
-        {
-            "name": "✨Gather.网络直播✨",
-            "type": 0,
-            "url": "https://m.iill.top/Live.m3u",
-            "ua": "okhttp/4.15",
-            "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-            "logo": "https://epg.112114.xyz/logo/{name}.png"
+            "key": "Yinyuetai",
+            "name": "🫰音悦台🫰",
+            "type": 3,
+            "api": "csp_Yinyuetai",
+            "searchable": 1,
+            "changeable": 0
         }
     ],
     "doh": [
         {
-            "name": "✨Google✨",
+            "name": "🫰Google🫰",
             "url": "https://dns.google/dns-query",
             "ips": [
                 "8.8.4.4",
                 "8.8.8.8",
-                "2001:4860:4860::8844",
-                "2001:4860:4860::8888"
+                "2001:4860:4860::8888",
+                "2001:4860:4860::8844"
             ]
         },
         {
-            "name": "✨Cloudflare✨",
+            "name": "🫰Cloudflare🫰",
             "url": "https://cloudflare-dns.com/dns-query",
             "ips": [
                 "1.1.1.1",
@@ -289,7 +196,7 @@
             ]
         },
         {
-            "name": "✨AdGuard✨",
+            "name": "🫰AdGuard🫰",
             "url": "https://dns.adguard.com/dns-query",
             "ips": [
                 "94.140.14.140",
@@ -299,7 +206,7 @@
             ]
         },
         {
-            "name": "✨DNSWatch✨",
+            "name": "🫰DNSWatch🫰",
             "url": "https://resolver2.dns.watch/dns-query",
             "ips": [
                 "84.200.69.80",
@@ -309,80 +216,13 @@
             ]
         },
         {
-            "name": "✨Quad9✨",
+            "name": "🫰Quad9🫰",
             "url": "https://dns.quad9.net/dns-query",
             "ips": [
                 "9.9.9.9",
                 "149.112.112.112",
                 "2620:fe::fe",
                 "2620:fe::9"
-            ]
-        },
-        {
-            "name": "✨OpenDNS✨",
-            "url": "https://doh.opendns.com/dns-query",
-            "ips": [
-                "208.67.222.222",
-                "208.67.220.220",
-                "2620:119:35::35",
-                "2620:119:53::53"
-            ]
-        },
-        {
-            "name": "✨AliDNS✨",
-            "url": "https://dns.alidns.com/dns-query",
-            "ips": [
-                "223.5.5.5",
-                "223.6.6.6",
-                "2400:3200::1",
-                "2400:3200:baba::1"
-            ]
-        },
-        {
-            "name": "✨DNSPod✨",
-            "url": "https://doh.pub/dns-query",
-            "ips": [
-                "119.29.29.29",
-                "182.254.116.116",
-                "2402:4e00::",
-                "2402:4e00:1::"
-            ]
-        },
-        {
-            "name": "✨NextDNS✨",
-            "url": "https://dns.nextdns.io/dns-query",
-            "ips": [
-                "45.90.28.0",
-                "45.90.30.0",
-                "2a07:a8c0::",
-                "2a07:a8c1::"
-            ]
-        },
-        {
-            "name": "✨Mullvad✨",
-            "url": "https://dns.mullvad.net/dns-query",
-            "ips": [
-                "194.242.2.2",
-                "194.242.2.3",
-                "2a07:e340::2"
-            ]
-        },
-        {
-            "name": "✨ControlD✨",
-            "url": "https://dns.controld.com/freedns",
-            "ips": [
-                "76.76.2.0",
-                "76.76.10.0"
-            ]
-        },
-        {
-            "name": "✨360 DNS✨",
-            "url": "https://doh.360.cn/dns-query",
-            "ips": [
-                "101.226.4.6",
-                "218.30.118.6",
-                "123.125.81.6",
-                "140.207.198.6"
             ]
         }
     ],
@@ -411,7 +251,7 @@
     ],
     "rules": [
         {
-            "name": "proxy",
+            "name": "🫰proxy🫰",
             "hosts": [
                 "raw.githubusercontent.com",
                 "googlevideo.com",
@@ -509,7 +349,7 @@
             ]
         },
         {
-            "name": "✨火山嗅探✨",
+            "name": "🫰火山嗅探🫰",
             "hosts": [
                 "huoshan.com"
             ],
@@ -518,7 +358,7 @@
             ]
         },
         {
-            "name": "✨抖音嗅探✨",
+            "name": "🫰抖音嗅探🫰",
             "hosts": [
                 "douyin.com"
             ],
@@ -527,7 +367,7 @@
             ]
         },
         {
-            "name": "✨農民嗅探✨",
+            "name": "🫰農民嗅探🫰",
             "hosts": [
                 "toutiaovod.com"
             ],
@@ -536,7 +376,7 @@
             ]
         },
         {
-            "name": "✨夜市✨",
+            "name": "🫰夜市🫰",
             "hosts": [
                 "yeslivetv.com"
             ],
@@ -545,7 +385,7 @@
             ]
         },
         {
-            "name": "✨毛驢✨",
+            "name": "🫰毛驢🫰",
             "hosts": [
                 "www.maolvys.com"
             ],
@@ -554,7 +394,7 @@
             ]
         },
         {
-            "name": "✨磁力广告✨",
+            "name": "🫰磁力广告🫰",
             "hosts": [
                 "magnet"
             ],
