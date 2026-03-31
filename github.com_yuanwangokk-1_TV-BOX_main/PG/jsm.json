@@ -176,17 +176,17 @@
     ],
     "doh": [
         {
-            "name": "🫰Google🫰",
+            "name": "✨Google✨",
             "url": "https://dns.google/dns-query",
             "ips": [
-                "8.8.4.4",
                 "8.8.8.8",
+                "8.8.4.4",
                 "2001:4860:4860::8888",
                 "2001:4860:4860::8844"
             ]
         },
         {
-            "name": "🫰Cloudflare🫰",
+            "name": "✨Cloudflare✨",
             "url": "https://cloudflare-dns.com/dns-query",
             "ips": [
                 "1.1.1.1",
@@ -196,17 +196,17 @@
             ]
         },
         {
-            "name": "🫰AdGuard🫰",
-            "url": "https://dns.adguard.com/dns-query",
+            "name": "✨AdGuard✨",
+            "url": "https://dns.adguard-dns.com/dns-query",
             "ips": [
-                "94.140.14.140",
-                "94.140.14.141",
+                "94.140.14.14",
+                "94.140.15.15",
                 "2a10:50c0::ad1:ff",
                 "2a10:50c0::ad2:ff"
             ]
         },
         {
-            "name": "🫰DNSWatch🫰",
+            "name": "✨DNSWatch✨",
             "url": "https://resolver2.dns.watch/dns-query",
             "ips": [
                 "84.200.69.80",
@@ -216,13 +216,43 @@
             ]
         },
         {
-            "name": "🫰Quad9🫰",
+            "name": "✨Quad9✨",
             "url": "https://dns.quad9.net/dns-query",
             "ips": [
                 "9.9.9.9",
                 "149.112.112.112",
                 "2620:fe::fe",
                 "2620:fe::9"
+            ]
+        },
+        {
+            "name": "✨Tencent✨",
+            "url": "https://doh.pub/dns-query",
+            "ips": [
+                "1.12.12.12",
+                "120.53.53.53",
+                "2402:4e00::",
+                "2402:4e00:1::"
+            ]
+        },
+        {
+            "name": "✨AliDNS✨",
+            "url": "https://dns.alidns.com/dns-query",
+            "ips": [
+                "223.5.5.5",
+                "223.6.6.6",
+                "2400:3200::1",
+                "2400:3200:baba::1"
+            ]
+        },
+        {
+            "name": "✨360DNS✨",
+            "url": "https://doh.360.cn/dns-query",
+            "ips": [
+                "101.226.4.6",
+                "218.30.118.6",
+                "123.125.81.6",
+                "140.207.198.6"
             ]
         }
     ],
