@@ -107,6 +107,7 @@
 | [Rin](https://github.com/openRin/Rin/) |Rin 是一个基于 Cloudflare Pages + Workers + D1 + R2 全家桶的博客，无需服务器无需备案，只需要一个解析到 Cloudflare 的域名即可部署。| <https://docs.openrin.org/> | 维护中|
 | [cf-comment](https://github.com/joyance-professional/cf-comment) |一个基于 Cloudflare Workers 运行的简单评论系统，支持回复、点赞、举报以及管理员后台管理功能；同时提供中英双语切换，方便更广泛地使用。| <https://comment.joyance.page/area/test-4> | 维护中|
 | [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) |一个高性能、Agentic-First 的博客平台。完全基于 Cloudflare 生态 (Workers, Pages, D1, KV, R2, Vectorize)。内置 MCP 协议，支持通过 OpenClaw 零人工自动部署。| <https://blog.ichimarugin728.com> | 维护中|
+| [讀角獸](https://ducorn.com) | 使用 Cloudflare Pages + Workers + D1 + KV + R2 全家桶構建的繁體中文深度分析出版物。Astro 4 hybrid SSR，零外部服務依賴。| <https://ducorn.com/> | 维护中|
 
 
 
@@ -202,6 +203,7 @@
 | [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) | SSL 证书到期监控工具，检查 SSL 证书有效期并通过 RESTful API 提供服务。 | <https://ssl-certificate-monitor.autocompany.workers.dev/> |维护中|
 | [deploy-mcp](https://github.com/alexpota/deploy-mcp) | 为AI助手提供的通用部署跟踪器，支持实时状态徽章和部署监控，包括对 Cloudflare Pages 的支持。 | https://deploy-mcp.io | 有效中 |
 | [What Broke Today](https://whatbroke.today/) | AI 驱动的宕机聚合器，追踪 100+ 云服务（包括 Cloudflare）的状态，提供实时 Telegram 警报、RSS 订阅和 JSON API。 | <https://whatbroke.today/> | 维护中 |
+| [oddin-status](https://github.com/oddinpay/oddin-status) | 精美的状态页与在线率监控系统。生产级环境就绪，开箱即用。| <https://status.oddinpay.com/> | 运行正常 |
 
 ## 开发者工具
 
