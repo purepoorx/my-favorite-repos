@@ -108,6 +108,7 @@
 | [cf-comment](https://github.com/joyance-professional/cf-comment) |一个基于 Cloudflare Workers 运行的简单评论系统，支持回复、点赞、举报以及管理员后台管理功能；同时提供中英双语切换，方便更广泛地使用。| <https://comment.joyance.page/area/test-4> | 维护中|
 | [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) |一个高性能、Agentic-First 的博客平台。完全基于 Cloudflare 生态 (Workers, Pages, D1, KV, R2, Vectorize)。内置 MCP 协议，支持通过 OpenClaw 零人工自动部署。| <https://blog.ichimarugin728.com> | 维护中|
 | [讀角獸](https://ducorn.com) | 使用 Cloudflare Pages + Workers + D1 + KV + R2 全家桶構建的繁體中文深度分析出版物。Astro 4 hybrid SSR，零外部服務依賴。| <https://ducorn.com/> | 维护中|
+| [One Stroke Fan](https://github.com/lson-lee/one-stroke) | 基于 Astro 构建并部署在 Cloudflare Pages 的多语言粉丝站。支持 9 种语言、100+ 页面、sitemap / hreflang / JSON-LD / llms.txt，纯静态零成本运行。| <https://one-stroke.savetimefor.fun> | 维护中|
 
 
 
@@ -144,6 +145,7 @@
 | [counterscale](https://github.com/benvinegar/counterscale) |Counterscale 是一个简单的 Web 分析跟踪器和仪表板，效果和 umami 类似，您可以在 Cloudflare 上自行托管。它的设计易于部署和维护，即使在高流量的情况下，您的操作成本也应该接近于零（Cloudflare 的免费套餐假设可以支持每天高达 10 万次点击）。 | <https://counterscale.dev/> |维护中|
 | [HanAnalytics](https://github.com/uxiaohan/HanAnalytics) |一个部署在Cloudflare Pages上的简单的网络分析跟踪器和仪表板，是umami的精简版，它支持设备查看、来源查看、国家地区及设备OS等数据查看分析，支持密码访问，域名白名单等功能。 |  |维护中|
 | [PageGuard](https://github.com/sleepyxpad-jpg/pageguard) |免费网站健康扫描器，基于 Cloudflare Workers + D1 + Workers AI（Llama 3.1）。检查 SEO、性能（Core Web Vitals）、无障碍（WCAG 2.1）、最佳实践，30 秒出 AI 诊断报告，无需注册登录。 | <https://pageguard.org> |维护中|
+| [Beam](https://github.com/scobb/beam) |轻量级、无 Cookie、GDPR 合规的网页分析服务，基于 Cloudflare Workers + D1 构建。无需 Cookie 即可收集页面浏览数据，隐私友好，可自部署。 | <https://beam.keylightdigital.com/> |维护中|
 
 
 
@@ -181,8 +183,16 @@
 | [cf-drop](https://github.com/lyonbot/cf-drop) |一个「文件传输助手」，运行在 Cloudflare Worker + R2 + D1。具备PWA移动端优化、支持多线程文件下载、访问密码、打包下载tarball 等功能。界面简单易用，可放到浏览器侧栏，或者添加到手机桌面上快速使用。|   |维护中|
 | [serverless-webdav](https://github.com/jiacai2050/my-works/blob/main/serverless-webdav/README.zh-CN.md) | 基于 Cloudflare Workers 和 Cloudflare D1 数据库 构建的轻量级、可扩展的 WebDAV 服务器实现。 |   |维护中|
 | [R2Drop](https://github.com/superhumancorp/r2drop) |Native macOS menu bar app for uploading files to Cloudflare R2. Built with Swift + Rust, supports drag-and-drop, automatic URL copying, and multiple bucket management. | <https://r2drop.com> |维护中|
+| [K-Vault](https://github.com/katelya77/K-Vault) | 基于 Cloudflare 的 Serverless 聚合云盘。以 Telegram 为核心，兼容 R2、S3、Discord、HuggingFace 等多存储后端，支持 Webhook 直传、2GB 扩展、内容审核和自定义域名。 |  |维护中|
 
 
+
+
+## 对象存储
+
+| 项目 | 简介 | 在线地址 | 状态 |
+| --- | --- | --- | --- |
+| [awesome-object-storage](https://github.com/mixpeek/awesome-object-storage) | 21个S3兼容对象存储提供商的全面比较，包括Cloudflare R2。涵盖定价、陷阱和迁移成本。 | <https://storage.mixpeek.com> | 维护中 |
 
 ## 测速
 
@@ -210,6 +220,8 @@
 | 名称 | 特性 |在线地址 | 状态|
 | --- | --- | --- |--- |
 | [Webhook Debugger](https://github.com/brancogao/webhook-debugger) | 自托管 Webhook 调试工具，支持签名验证（Stripe/GitHub/Slack/Shopify）、90天历史、全文搜索、一键重放。基于 Cloudflare Workers + D1 构建。 | <https://webhook-debugger.autocompany.workers.dev> | 维护中 |
+| [Cloudflare-WeChat-Notifier](https://github.com/krapnikkk/Cloudflare-WeChat-Notifier) | 基于 Cloudflare Workers + Hono + D1 + Queues 的微信通知桥接服务。支持扫码登录、Webhook 入站、异步投递、失败重试和日志追踪，适用于 CI/CD、监控告警等通知场景。 |  | 维护中 |
+| [GetWeb](https://github.com/ZhangShengFan/GetWeb) | 基于 Cloudflare Workers + GitHub Actions + Electron 的网页打包 EXE 工具。在线填写网址即可生成 Windows 桌面应用，支持自定义图标、构建历史和多 Token 负载均衡。 | <https://jishuguai.cc.cd/> | 维护中 |
 
 # 文章
 
@@ -282,6 +294,17 @@
 | [redirect-checker](https://github.com/brancogao/redirect-checker) | 基于 Cloudflare Workers 的 HTTP 重定向链分析器，支持检测重定向循环、性能测量、多种 User-Agent 预设（含 Googlebot/Bingbot）。提供 RESTful API 和响应式 Web UI。| <https://redirect-checker.autocompany.workers.dev/> | 维护中 |
 | [MetaReview](https://github.com/TerryFYL/metareview) | 免费在线 Meta 分析平台，基于 Cloudflare Pages + Workers AI + KV 构建。支持 120+ 功能：森林图/漏斗图等 11 种统计图表（D3.js）、5 种效应量、AI 文献筛选（Llama 3.1 8B）、PDF 数据提取、DOCX/HTML 报告导出、PRISMA 流程图。中英双语，医学研究者 5 分钟从数据到森林图。 | <https://metareview-8c1.pages.dev/> | 维护中 |
 | [Keep My Claw](https://github.com/Ryce/keepmyclaw) | 基于 Cloudflare Workers + D1 + R2 的 AI 代理加密云备份工具。支持自动定时备份、客户端 AES-256 加密、一键恢复到任意设备，专为 OpenClaw 工作空间设计。 | <https://keepmyclaw.com> | 维护中 |
+| [2FAuth Worker](https://github.com/nap0o/2fauth-worker) | 支持 Cloudflare Workers 与 Docker 双模式部署的高安全 2FA/TOTP 管理系统。提供 PWA、离线验证码生成、Health Shield 和 WebDAV/S3/Telegram 多通道备份。 | <https://2fauth.pp.ua> | 维护中 |
+| [AI Maze Generator](https://github.com/s87343472/ai-maze-generator) | 基于 Next.js + OpenNext 部署在 Cloudflare Workers 上的在线迷宫生成器与游戏。支持 10 种迷宫模式、每日挑战、排行榜、自定义生成和 PDF 导出。 | <https://ai-mazegenerator.com> | 维护中 |
+| [OmniConvert](https://github.com/s87343472/omni-convert) | 部署在 Cloudflare Pages + Workers 的免费开源文件与单位转换工具箱。支持 94 种文件格式转换、345 种单位换算、PWA 离线使用、8 种语言以及 API / MCP 接口。 | <https://tools.sagasu.art> | 维护中 |
+| [Voice to Instrument](https://voicetoinstrument.com?utm_source=github&utm_medium=directory&utm_campaign=backlink) | 免费 AI 音乐工具，可将人声录音转换为钢琴、吉他、鼓等器乐伴奏，适合内容创作与音乐制作。 | <https://voicetoinstrument.com?utm_source=github&utm_medium=directory&utm_campaign=backlink> | 维护中 |
+| [TrySchedule](https://www.tryschedule.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink) | 免费在线排班与日程构建工具，无需登录即可快速创建和调整时间表。 | <https://www.tryschedule.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink> | 维护中 |
+| [Period Calculator](https://www.aiperiodcalculator.com/) | AI 驱动的经期周期计算工具，用于周期跟踪、日期预测与相关信息查询。 | <https://www.aiperiodcalculator.com/> | 维护中 |
+| [Nano Banana 2](https://nanobananas2.org) | 使用 Cloudflare R2 与 Turnstile 的 AI 图像工作室，支持文生图、图像编辑、广告海报和电商视觉生成。 | <https://nanobananas2.org> | 维护中 |
+| [D2Down](https://d2down.com?utm_source=github&utm_medium=directory&utm_campaign=backlink) | 免费高速在线视频下载与转换工具，支持 YouTube、TikTok 等平台。 | <https://d2down.com?utm_source=github&utm_medium=directory&utm_campaign=backlink> | 维护中 |
+| [TOPUPlive](https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink) | 在线充值平台，支持手机充值、直播、游戏、礼品卡等 3000+ 商品类别。 | <https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink> | 维护中 |
+| [Slitherlinks](https://slitherlinks.com) | 免费在线 Slitherlink 数字回路谜题平台，提供 1900+ 谜题、每日挑战、全球排行榜，技术栈包含 Cloudflare Workers + D1。 | <https://slitherlinks.com> | 维护中 |
+| [Flashify](https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1) | AI 驱动的学习工具，可将 PDF 学习资料转换为高质量 Anki 闪卡并导出卡组。 | <https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1> | 维护中 |
 
 ## 教程
 

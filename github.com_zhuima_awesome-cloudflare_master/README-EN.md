@@ -89,6 +89,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [emaction.frontend](https://github.com/emaction/emaction.frontend) |GitHub-style Reactions liking feature implemented based on Cloudflare D1, this project is the frontend. | <https://emaction.cool/>| Maintaining |
 | [emaction.backend](https://github.com/emaction/emaction.backend) |GitHub-style Reactions liking feature implemented based on Cloudflare D1, this project is the backend. | <https://emaction.cool/> | Maintaining |
 | [Gins-Blog](https://github.com/IchimaruGin728/Gins-Blog) | A high-performance, Agentic-First blog platform. Built on Cloudflare ecosystem. Supports MCP and Zero-Touch Deployment via OpenClaw. | <https://blog.ichimarugin728.com> | Maintaining |
+| [One Stroke Fan](https://github.com/lson-lee/one-stroke) | Multilingual fan site built with Astro and deployed on Cloudflare Pages. Supports 9 languages, 100+ pages, sitemap / hreflang / JSON-LD / llms.txt, and fully static low-cost hosting. | <https://one-stroke.savetimefor.fun> | Maintaining |
 
 # Scaffolding
 
@@ -148,6 +149,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [FileWorker](https://github.com/yllhwa/FileWorker) |An online clipboard/file sharing service running on Cloudflare Worker. |  | Maintaining |
 | [CloudPaste](https://github.com/ling-drag0n/CloudPaste) | A Cloudflare-based online text/large file sharing platform supporting multiple syntax Markdown rendering, self-destruct after reading, multi-storage aggregation (S3/WebDav/TG/OneDrive), password protection, and more. Can be mounted as WebDav and supports Docker deployment. | <https://doc.cloudpaste.qzz.io/> | Maintenance |
 | [dingding](https://github.com/iiop123/dingding) |A file transfer tool based on Cloudflare Workers, storing files in Cloudflare KV. |  | Seems unmaintained |
+| [K-Vault](https://github.com/katelya77/K-Vault) | Serverless cloud vault built around Telegram and Cloudflare. Supports R2, S3, Discord, HuggingFace, webhook uploads, content moderation, custom domains, and larger file extensions. |  | Maintaining |
 
 ## Speed Test
 
@@ -228,6 +230,19 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [cf-page-publish-mcp](https://github.com/Actrue/cf-page-publish-mcp) | Cloudflare page publishing mcp tool that can publish HTML pages to Cloudflare Workers. Can connect to AI via MCP. | | Maintaining |
 | [ShotOG](https://github.com/nicepkg/shotog) | Open source OG image generation API running on Cloudflare Workers. 8 templates, batch generation, custom fonts, edge rendering ~50ms. | <https://shotog.2214962083.workers.dev> | Maintaining |
 | [Keep My Claw](https://github.com/Ryce/keepmyclaw) | Encrypted cloud backup tool for AI agents built on Cloudflare Workers + D1 + R2. Supports automated scheduled backups, client-side AES-256 encryption, one-command restore to any device. Designed for OpenClaw workspaces. | <https://keepmyclaw.com> | Maintaining |
+| [Cloudflare-WeChat-Notifier](https://github.com/krapnikkk/Cloudflare-WeChat-Notifier) | WeChat notification bridge built with Cloudflare Workers + Hono + D1 + Queues. Supports QR login, webhook ingestion, async delivery, retries, dashboard, and logs for CI/CD and alerting. |  | Maintaining |
+| [Voice to Instrument](https://voicetoinstrument.com?utm_source=github&utm_medium=directory&utm_campaign=backlink) | Free AI tool that turns voice recordings into instrumental tracks such as piano, guitar, and drums for music and content creation workflows. | <https://voicetoinstrument.com?utm_source=github&utm_medium=directory&utm_campaign=backlink> | Maintaining |
+| [TrySchedule](https://www.tryschedule.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink) | Free online schedule builder with no login required for quick planning and timetable sharing. | <https://www.tryschedule.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink> | Maintaining |
+| [Period Calculator](https://www.aiperiodcalculator.com/) | AI-powered period and cycle calculator for tracking, prediction, and related information lookup. | <https://www.aiperiodcalculator.com/> | Maintaining |
+| [2FAuth Worker](https://github.com/nap0o/2fauth-worker) | Security-focused 2FA/TOTP manager supporting Cloudflare Workers and Docker deployments, with PWA, offline code generation, health checks, and multi-channel backups. | <https://2fauth.pp.ua> | Maintaining |
+| [Nano Banana 2](https://nanobananas2.org) | AI image studio using Cloudflare R2 and Turnstile for prompt-based image generation and editing, including ads, posters, and ecommerce visuals. | <https://nanobananas2.org> | Maintaining |
+| [D2Down](https://d2down.com?utm_source=github&utm_medium=directory&utm_campaign=backlink) | Free high-speed online video downloader and converter for YouTube, TikTok, and more. | <https://d2down.com?utm_source=github&utm_medium=directory&utm_campaign=backlink> | Maintaining |
+| [TOPUPlive](https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink) | Online recharge platform for mobile top-ups, live services, games, and gift cards with 3,000+ product categories. | <https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink> | Maintaining |
+| [AI Maze Generator](https://github.com/s87343472/ai-maze-generator) | Online maze generator and game deployed to Cloudflare Workers with 10 maze modes, daily challenges, leaderboards, custom generation, and PDF export. | <https://ai-mazegenerator.com> | Maintaining |
+| [GetWeb](https://github.com/ZhangShengFan/GetWeb) | Online tool that packages websites into Windows EXE apps using Cloudflare Workers, GitHub Actions, and Electron. Supports custom icons, build history, and multiple GitHub tokens. | <https://jishuguai.cc.cd/> | Maintaining |
+| [Slitherlinks](https://slitherlinks.com) | Free online Slitherlink puzzle platform with 1900+ puzzles, daily challenges, global leaderboards, and a Cloudflare Workers + D1 stack. | <https://slitherlinks.com> | Maintaining |
+| [Flashify](https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1) | AI-powered study platform that converts PDFs into high-quality Anki flashcards with export-ready decks. | <https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1> | Maintaining |
+| [OmniConvert](https://github.com/s87343472/omni-convert) | Free online conversion toolbox deployed on Cloudflare Pages + Workers. Supports file conversion, unit conversion, PWA, multilingual UI, and API/MCP access. | <https://tools.sagasu.art> | Maintaining |
 
 
 ## Tutorials
