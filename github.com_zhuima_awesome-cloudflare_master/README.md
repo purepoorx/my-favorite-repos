@@ -278,7 +278,7 @@
 | [Edgebin](https://github.com/jiacai2050/edgebin) | 类似与 httpbin 的 HTTP 测试服务 | <https://edgebin.liujiacai.net> | 有效中 |
 | [CF-TOOLS](https://github.com/MainPoser/cf-tools) | 整合常用开发工具，AI 助手等。 | <https://cf-tools.tianyao.qzz.io/> | 有效中 |
 | [subpool-worker](https://github.com/illusionlie/subpool-worker) | 轻量级订阅池服务，用于管理和分发代理订阅链接 |  | 维护中 |
-| [AWS-AccessBridge](https://github.com/Rexezuge-CloudflareWorkers/AWS-AccessBridge) | AWS 多账号管理和登录服务 |  | 维护中 |
+| [AWS-AccessBridge](https://github.com/Rexezuge-CloudflareWorkers/AWS-AccessBridge) | AWS 多账号管理和登录服务 | <https://aws-access-bridge.220cbb9e01920558e6d2862ebf66b298.workers.dev/> | 维护中 |
 | [Cloudflare-Clist](https://github.com/ooyyh/Cloudflare-Clist) | 基于cloudflare worker的类alist聚合存储管理服务 | <https://down.ohyraw.qzz.io> | 维护中 |
 | [sync-your-cookie](https://github.com/jackluson/sync-your-cookie) | 基于cloudflare KV、Github Gist Cookie同步浏览器拓展。支持同步 Cookie 到 Cloudflare 或者 github Gist (支持LocalStorage)，支持为不同站点配置Auto Merge和Auto Push规则，Cookie数据经过 protobuf 编码传输，提供了管理面板。| | 维护中 |
 | [myip](https://github.com/hoa-js/examples/tree/master/myip) | 基于Cloudflare Workers的IP信息探测网站。支持一键部署，基于hoajs实现。| <https://myip.hoa-js.com/> | 维护中 |
