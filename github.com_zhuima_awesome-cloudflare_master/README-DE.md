@@ -120,6 +120,7 @@ Willkommen zu PRs und Issues für Updates. Bei Problemen während der Bereitstel
 | [FileWorker](https://github.com/yllhwa/FileWorker) | Online-Clipboard/Dateifreigabe, die auf Cloudflare Worker läuft | | Wird gewartet |
 | [dingding](https://github.com/iiop123/dingding) | Ein Dateiübertragungstool, das auf Cloudflare Workers basiert, Dateien werden in Cloudflare KV gespeichert | | Scheint nicht gewartet zu werden |
 | [K-Vault](https://github.com/katelya77/K-Vault) | Serverlose aggregierte Cloud-Disk auf Basis von Telegram und Cloudflare. Unterstützt R2, S3, Discord, HuggingFace, Webhook-Direktupload, Inhaltsmoderation und benutzerdefinierte Domains. | | Wird gewartet |
+| [ZeroLink](https://github.com/yclgkd/ZeroLink) | Zero-Knowledge-Sicherheitsübertragungstool. Kein Konto erforderlich, Ende-zu-Ende-verschlüsselt, Server kann nicht entschlüsseln. Unterstützt Password / Passkey Dualmodus für die sichere Weitergabe von Passwörtern, API-Tokens, Wiederherstellungscodes, privaten Nachrichten und sensiblen Dateien. Basiert auf Cloudflare Workers + Durable Objects + R2. | <https://zerolink.dev> | Wird gewartet |
 
 ## Geschwindigkeitstest
 

@@ -150,6 +150,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [CloudPaste](https://github.com/ling-drag0n/CloudPaste) | A Cloudflare-based online text/large file sharing platform supporting multiple syntax Markdown rendering, self-destruct after reading, multi-storage aggregation (S3/WebDav/TG/OneDrive), password protection, and more. Can be mounted as WebDav and supports Docker deployment. | <https://doc.cloudpaste.qzz.io/> | Maintenance |
 | [dingding](https://github.com/iiop123/dingding) |A file transfer tool based on Cloudflare Workers, storing files in Cloudflare KV. |  | Seems unmaintained |
 | [K-Vault](https://github.com/katelya77/K-Vault) | Serverless cloud vault built around Telegram and Cloudflare. Supports R2, S3, Discord, HuggingFace, webhook uploads, content moderation, custom domains, and larger file extensions. |  | Maintaining |
+| [ZeroLink](https://github.com/yclgkd/ZeroLink) | Zero-knowledge secure sharing tool. No account needed, end-to-end encrypted, server cannot decrypt. Supports Password / Passkey dual modes for securely sharing passwords, API tokens, recovery codes, private messages, and sensitive files. Built on Cloudflare Workers + Durable Objects + R2. | <https://zerolink.dev> | Maintaining |
 
 ## Speed Test
 

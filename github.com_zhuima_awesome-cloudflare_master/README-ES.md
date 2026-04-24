@@ -149,6 +149,7 @@ Se invita a contribuir con PR y issues para actualizaciones. Si tienes algún pr
 | [FileWorker](https://github.com/yllhwa/FileWorker) | Un portapapeles en línea/archivo compartido que funciona en Cloudflare Worker. |  | En mantenimiento |
 | [dingding](https://github.com/iiop123/dingding) | Una herramienta de transferencia de archivos basada en Cloudflare Workers, con archivos almacenados en Cloudflare KV. |  | Parece que no se mantiene |
 | [K-Vault](https://github.com/katelya77/K-Vault) | Bóveda en la nube serverless construida alrededor de Telegram y Cloudflare. Soporta R2, S3, Discord, HuggingFace, cargas por webhook, moderación de contenido y dominios personalizados. | | En mantenimiento |
+| [ZeroLink](https://github.com/yclgkd/ZeroLink) | Herramienta de transferencia segura de conocimiento cero. Sin cuenta necesaria, cifrado de extremo a extremo, el servidor no puede descifrar. Soporta modos duales Password / Passkey para compartir de forma segura contraseñas, tokens API, códigos de recuperación, mensajes privados y archivos sensibles. Construido sobre Cloudflare Workers + Durable Objects + R2. | <https://zerolink.dev> | En mantenimiento |
 
 ## Pruebas de velocidad
 

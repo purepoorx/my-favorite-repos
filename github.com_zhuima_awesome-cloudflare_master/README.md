@@ -184,6 +184,7 @@
 | [serverless-webdav](https://github.com/jiacai2050/my-works/blob/main/serverless-webdav/README.zh-CN.md) | 基于 Cloudflare Workers 和 Cloudflare D1 数据库 构建的轻量级、可扩展的 WebDAV 服务器实现。 |   |维护中|
 | [R2Drop](https://github.com/superhumancorp/r2drop) |Native macOS menu bar app for uploading files to Cloudflare R2. Built with Swift + Rust, supports drag-and-drop, automatic URL copying, and multiple bucket management. | <https://r2drop.com> |维护中|
 | [K-Vault](https://github.com/katelya77/K-Vault) | 基于 Cloudflare 的 Serverless 聚合云盘。以 Telegram 为核心，兼容 R2、S3、Discord、HuggingFace 等多存储后端，支持 Webhook 直传、2GB 扩展、内容审核和自定义域名。 |  |维护中|
+| [ZeroLink](https://github.com/yclgkd/ZeroLink) | 零知识安全传递工具，无账号、端到端加密、服务器无法解密；支持 Password / Passkey 双模式，适合安全传递密码、API Token、恢复码、私密消息和敏感文件。基于 Cloudflare Workers + Durable Objects + R2 构建。 | <https://zerolink.dev> |维护中|
 
 
 
@@ -214,6 +215,7 @@
 | [deploy-mcp](https://github.com/alexpota/deploy-mcp) | 为AI助手提供的通用部署跟踪器，支持实时状态徽章和部署监控，包括对 Cloudflare Pages 的支持。 | https://deploy-mcp.io | 有效中 |
 | [What Broke Today](https://whatbroke.today/) | AI 驱动的宕机聚合器，追踪 100+ 云服务（包括 Cloudflare）的状态，提供实时 Telegram 警报、RSS 订阅和 JSON API。 | <https://whatbroke.today/> | 维护中 |
 | [oddin-status](https://github.com/oddinpay/oddin-status) | 精美的状态页与在线率监控系统。生产级环境就绪，开箱即用。| <https://status.oddinpay.com/> | 运行正常 |
+| [AIWatch](https://github.com/bentleypark/aiwatch) | 30 个 AI 服务（Claude、OpenAI、Gemini、Mistral、Groq、ElevenLabs 等）的实时状态监控仪表板。基于 Cloudflare Workers + KV + Workers AI（Gemma 4 26B 用于事件分析）构建，提供 Discord/Slack 告警、AI 驱动的事件分析和综合可靠性评分。 | <https://ai-watch.dev/> | 维护中 |
 
 ## 开发者工具
 
@@ -222,6 +224,7 @@
 | [Webhook Debugger](https://github.com/brancogao/webhook-debugger) | 自托管 Webhook 调试工具，支持签名验证（Stripe/GitHub/Slack/Shopify）、90天历史、全文搜索、一键重放。基于 Cloudflare Workers + D1 构建。 | <https://webhook-debugger.autocompany.workers.dev> | 维护中 |
 | [Cloudflare-WeChat-Notifier](https://github.com/krapnikkk/Cloudflare-WeChat-Notifier) | 基于 Cloudflare Workers + Hono + D1 + Queues 的微信通知桥接服务。支持扫码登录、Webhook 入站、异步投递、失败重试和日志追踪，适用于 CI/CD、监控告警等通知场景。 |  | 维护中 |
 | [GetWeb](https://github.com/ZhangShengFan/GetWeb) | 基于 Cloudflare Workers + GitHub Actions + Electron 的网页打包 EXE 工具。在线填写网址即可生成 Windows 桌面应用，支持自定义图标、构建历史和多 Token 负载均衡。 | <https://jishuguai.cc.cd/> | 维护中 |
+| [HackMyIP](https://hackmyip.com/) |基于 Cloudflare Workers 构建的在线隐私与网络工具集，提供 IP 查询、DNS/WebRTC 泄露检测、端口扫描、邮箱泄露检查、密码强度检测、网速测试等 20+ 工具，免费无需注册。 | <https://hackmyip.com/> | 维护中 |
 
 # 文章
 
@@ -305,6 +308,7 @@
 | [TOPUPlive](https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink) | 在线充值平台，支持手机充值、直播、游戏、礼品卡等 3000+ 商品类别。 | <https://www.topuplive.com/?utm_source=github&utm_medium=directory&utm_campaign=backlink> | 维护中 |
 | [Slitherlinks](https://slitherlinks.com) | 免费在线 Slitherlink 数字回路谜题平台，提供 1900+ 谜题、每日挑战、全球排行榜，技术栈包含 Cloudflare Workers + D1。 | <https://slitherlinks.com> | 维护中 |
 | [Flashify](https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1) | AI 驱动的学习工具，可将 PDF 学习资料转换为高质量 Anki 闪卡并导出卡组。 | <https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1> | 维护中 |
+| [Voidly Messenger](https://github.com/voidly-ai) | 完全基于 Cloudflare 构建的端到端加密消息 PWA（Pages + Workers + D1 + KV）。采用 Signal Protocol（Double Ratchet + X3DH）与 ML-KEM-768 后量子混合加密，全部加密在客户端完成，Workers 无法读取明文。 | <https://msg.voidly.ai> | 维护中 |
 
 ## 教程
 
