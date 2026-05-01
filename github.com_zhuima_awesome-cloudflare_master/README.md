@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/zhuima-awesome-cloudflare-badge.png)](https://mseep.ai/app/zhuima-awesome-cloudflare)
+
 <div align="center">
 
 <h1 align="center">Awesome Cloudflare <img src="https://img.shields.io/github/stars/zhuima/awesome-cloudflare?label=Stars" alt="stars"></h1>
