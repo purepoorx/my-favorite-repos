@@ -28,6 +28,9 @@
 
 ## 在线版本
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time AI agent monitoring dashboard for OpenClaw. Tracks Gateway status, sessions, token usage & trends with Vue 3 + ECharts.
+
+
 [Awesome Cloudflare 在线导航](https://cloudflare.chuhai.tools)
 
 

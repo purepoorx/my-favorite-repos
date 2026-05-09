@@ -1,6 +1,7 @@
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
+    "wallpaper": "https://www.loliapi.com/acg/pe/?type=img",
+    // "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "https://raw.githubusercontent.com/yuanwangokk-1/subscribe/refs/heads/main/picture/V51.png",
     "sites": [
         {
