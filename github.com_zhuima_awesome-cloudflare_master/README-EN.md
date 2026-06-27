@@ -63,7 +63,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [cloudflare-worker-image](https://github.com/ccbikai/cloudflare-worker-image) |Processes images using Cloudflare Worker, dependent on Photon, supports functions such as scaling, cropping, watermarking, filtering, etc. |  | Maintaining |
 | [tgState](https://github.com/csznet/tgState) |File external link system using Telegram as storage, with no restrictions on file size and format. | <https://tgstate.vercel.app>  | Maintaining |
 | [roim-picx](https://github.com/roimdev/roim-picx) |A free image hosting service based on CloudFlare Pages and R2. |  |Maintaining|
-| [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed)  | A free image hosting service based on CloudFlare and Telegraph. This repository is based on <https://github.com/cf-pages/Telegraph-Image> and is a remake of the original project's front-end page. Open-source, clear, beautiful, smooth animations, and versatile! | <https://demo-cloudflare-imgbed.pages.dev/> | Maintaining |
+| [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed)  | A free image hosting service based on the Cloudflare Workers tech stack, featuring a sleek and intuitive modern frontend. It supports various deployment methods like Cloudflare and Docker, and integrates with multiple storage backends including Telegram, Discord, S3, R2, Hugging Face, and WebDAV, with no restrictions on file formats or sizes. | <https://cfbed.1314883.xyz/> | Maintaining |
 | [PixR2](https://github.com/WangQueXL/PixR2) |Multi-entry image hosting and management platform based on Cloudflare Workers + R2 |   |Maintaining|
 
 ## Email
@@ -121,12 +121,14 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [analytics_with_cloudflare](https://github.com/yestool/analytics_with_cloudflare) |A free and open-source web visitor counter, Webviso is a completely free online web visitor statistics service based on Cloudflare Worker service + Cloudflare D1 database. Its functionality is similar to the minimalist web page counter Not Baidu - Webviso is completely open source, and you can implement custom requirements. Based on Cloudflare's microservices architecture, it can be quickly deployed and launched. | <https://webviso.yestool.org/> | Maintaining |
 | [counterscale](https://github.com/benvinegar/counterscale) |Counterscale is a simple web analytics tracker and dashboard, similar to Umami, that you can self-host on Cloudflare. Its design is easy to deploy and maintain, and even with high traffic, your operating costs should be close to zero (assuming Cloudflare's free plan can handle up to 100,000 clicks per day). | <https://counterscale.dev/> | Maintaining |
 | [PageGuard](https://github.com/sleepyxpad-jpg/pageguard) | Free all-in-one website health scanner powered by Cloudflare Workers + D1 + Workers AI. Checks SEO, performance (Core Web Vitals), accessibility (WCAG 2.1), and best practices. AI-powered action plans in 30 seconds. No signup required. | <https://pageguard.org> | Maintaining |
+| [GeoScore](https://github.com/sprawf/geoscore) | Free, open-source SEO & AI visibility audit tool. 39 checks covering technical SEO, Core Web Vitals, E-E-A-T signals, structured data, and GEO (AI citation) signals. Checks whether ChatGPT, Perplexity & Gemini would cite your site. No login, no tracking. Built entirely on Cloudflare Workers + Pages. | <https://geoscoreapp.pages.dev> | Maintaining |
 
 ## Tunnel
 
 | Name | Features | Online Address | Status |
 | --- | --- | --- |--- |
 | [Cloudflared-web](https://github.com/WisdomSky/Cloudflared-web) |Cloudflared-web is a Docker image that bundles the Cloudflared CLI and a simple web UI for easily starting/stopping Cloudflare tunnels. |  | Maintaining |
+| [cfzt](https://github.com/casablanque-code/cfzt) | CLI tool that wraps Cloudflare Tunnel, DNS, and Access into single commands for streamlined Zero Trust deployments. Written in Go. | | Maintaining |
 
 ## Acceleration
 
@@ -169,6 +171,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [xugou](https://github.com/zaunist/xugou)| A website monitoring and server monitoring tool based on CloudFlare. | https://xugou.mdzz.uk/ |  Under maintenance |
 | [deploy-mcp](https://github.com/alexpota/deploy-mcp) | Universal deployment tracker for AI assistants with live status badges and deployment monitoring, including Cloudflare Pages support. | https://deploy-mcp.io | Active |
 | [oddin-status](https://github.com/oddinpay/oddin-status) | Beautiful status page & uptime monitor. Ready for production out of the box. | <https://status.oddinpay.com/> | Active |
+| [Prismix](https://prismix.dev) | Real-time status aggregator for 76 AI services (OpenAI, Anthropic, Cursor, and more), built entirely on Cloudflare Workers + KV. Features email/webhook alerts, 30-day uptime history, status badges, AI news aggregation, and MCP server directory. | <https://prismix.dev> | Active |
 
 
 ## Articles
@@ -244,6 +247,7 @@ Feel free to submit PRs and issues to update the content. If you have any questi
 | [Slitherlinks](https://slitherlinks.com) | Free online Slitherlink puzzle platform with 1900+ puzzles, daily challenges, global leaderboards, and a Cloudflare Workers + D1 stack. | <https://slitherlinks.com> | Maintaining |
 | [Flashify](https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1) | AI-powered study platform that converts PDFs into high-quality Anki flashcards with export-ready decks. | <https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1> | Maintaining |
 | [OmniConvert](https://github.com/s87343472/omni-convert) | Free online conversion toolbox deployed on Cloudflare Pages + Workers. Supports file conversion, unit conversion, PWA, multilingual UI, and API/MCP access. | <https://tools.sagasu.art> | Maintaining |
+| [Dualmark](https://github.com/dodopayments/dualmark) | Open-source AEO (Answer Engine Optimization) infrastructure. The `@dualmark/cloudflare` adapter wraps any upstream Worker and serves clean Markdown twins to AI crawlers (GPTBot, ClaudeBot, PerplexityBot, +16 more known UAs) at the edge via HTTP content negotiation, while humans get HTML — same URL, two formats. Apache 2.0, npm provenance attested. | <https://dualmark.dev> | Maintaining |
 
 
 ## Tutorials

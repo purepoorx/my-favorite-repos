@@ -63,7 +63,7 @@ Se invita a contribuir con PR y issues para actualizaciones. Si tienes algún pr
 | [cloudflare-worker-image](https://github.com/ccbikai/cloudflare-worker-image) | Manejo de imágenes con Cloudflare Worker, depende de Photon, soporta escalado, recorte, marca de agua, filtros, etc. |  | En mantenimiento |
 | [tgState](https://github.com/csznet/tgState) | Sistema de enlaces de archivos usando Telegram como almacenamiento, sin límites de tamaño o formato de archivo. | <https://tgstate.vercel.app>  | En mantenimiento |
 | [roim-picx](https://github.com/roimdev/roim-picx) |Una cama de imágenes gratuita basada en CloudFlare Pages y R2. |  |En mantenimiento|
-| [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed)  | Un servicio gratuito de alojamiento de imágenes basado en CloudFlare y Telegraph. Este repositorio se basa en <https://github.com/cf-pages/Telegraph-Image> y es una nueva versión de la página frontal del proyecto original. ¡Código abierto, claro, hermoso, animaciones suaves y versátil! | <https://demo-cloudflare-imgbed.pages.dev/> | En mantenimiento |
+| [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed)  | Un servicio gratuito de alojamiento de imágenes basado en la tecnología de Cloudflare Workers, con una interfaz moderna, estética y fácil de usar. Soporta varios métodos de despliegue como Cloudflare y Docker, e integra múltiples canales de almacenamiento como Telegram, Discord, S3, R2, Hugging Face y WebDAV, sin restricciones de formato ni tamaño de archivo. | <https://cfbed.1314883.xyz/> | En mantenimiento |
 | [PixR2](https://github.com/WangQueXL/PixR2) |Plataforma de alojamiento y gestión de imágenes con múltiples puntos de entrada basada en Cloudflare Workers + R2 |   |En mantenimiento|
 
 ## Correo electrónico
@@ -243,6 +243,7 @@ Se invita a contribuir con PR y issues para actualizaciones. Si tienes algún pr
 | [Slitherlinks](https://slitherlinks.com) | Plataforma gratuita de Slitherlink en línea con más de 1900 rompecabezas, desafíos diarios, clasificaciones globales y una pila basada en Cloudflare Workers + D1. | <https://slitherlinks.com> | En mantenimiento |
 | [Flashify](https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1) | Plataforma de estudio con IA que convierte PDFs en tarjetas Anki de alta calidad con mazos listos para exportar. | <https://flashify.app?utm_source=github&utm_medium=directory&utm_campaign=backlink-2026q1> | En mantenimiento |
 | [OmniConvert](https://github.com/s87343472/omni-convert) | Caja de herramientas gratuita de conversión en línea desplegada en Cloudflare Pages + Workers. Soporta conversión de archivos, unidades, PWA, interfaz multilingüe y acceso API/MCP. | <https://tools.sagasu.art> | En mantenimiento |
+| [Dualmark](https://github.com/dodopayments/dualmark) | Infraestructura AEO (Answer Engine Optimization) de código abierto. El adaptador `@dualmark/cloudflare` envuelve cualquier Worker y sirve copias en Markdown a rastreadores de IA (GPTBot, ClaudeBot, PerplexityBot, +16 UAs conocidas) mediante negociación de contenido HTTP en el edge, mientras los humanos reciben HTML — misma URL, dos formatos. Apache 2.0, atestado con npm provenance. | <https://dualmark.dev> | En mantenimiento |
 
 
 ## Tutoriales
